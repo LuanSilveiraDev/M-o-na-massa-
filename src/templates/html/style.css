@@ -1,0 +1,84 @@
+
+.flex-container {
+    display:  flex;
+    justify-content: center;
+}
+
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+ul, a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    color: rgb(61, 60, 59);
+    text-decoration: underline;
+}
+
+
+
+li {
+    margin: 10px;
+    list-style: none;
+}
+
+.apresentation { 
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    margin: 10px;
+    color: gray;
+}
+
+.form {
+    width: 350px;
+    margin: auto;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+
+
+input { 
+    height: 35px;
+    border-radius: 40px;
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-left: 200px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+p {
+    margin-top: 10px;
+}

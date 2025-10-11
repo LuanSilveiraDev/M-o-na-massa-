@@ -73,7 +73,7 @@ button {
     display: flex;
     justify-content: center;
     width: 100px;
-    margin-left: 200px;
+    margin-left: 125px;
     height: 40px;
     border-radius: 10px;
 
@@ -81,4 +81,10 @@ button {
 
 p {
     margin-top: 10px;
+}
+
+#servicos {
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
 }

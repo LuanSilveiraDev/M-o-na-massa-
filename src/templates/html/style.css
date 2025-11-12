@@ -88,3 +88,7 @@ p {
     font-size: 15px;
     border-radius: 10px;
 }
+
+a.none {
+    text-decoration: none;
+}

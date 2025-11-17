@@ -1,7 +1,16 @@
+* {
+    margin: 0;
+
+}
+
+
 
 .flex-container {
     display:  flex;
     justify-content: center;
+    border: 2px solid black;
+    background-color: rgb(18, 14, 14);
+    
 }
 
 .flex-container > div {
@@ -10,18 +19,25 @@
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    
 }
 
 ul, a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: rgb(219, 206, 206);
+    margin: 10px;
+    font-size: 18px;
     
 }
 
+nav { 
+    margin-right: 900px;
+}
+
 a:hover {
-    color: rgb(61, 60, 59);
-    text-decoration: underline;
+    color: rgb(200, 189, 179);
+    text-decoration: none;
 }
 
 
@@ -31,9 +47,12 @@ li {
     list-style: none;
 }
 
-.apresentation { 
+.apresentation h1, h2, p { 
     text-align: center;
+    margin-top: 30px;
 }
+
+
 
 .link {
     display: flex;
@@ -42,12 +61,15 @@ li {
 
 .link a {
     margin: 10px;
+    margin-top: 20px;
     color: gray;
+    font-size: 20px;
 }
 
 .form {
     width: 350px;
     margin: auto;
+    margin-top: 20px;
 }
 
 .form h1 {
@@ -79,9 +101,7 @@ button {
 
 }
 
-p {
-    margin-top: 10px;
-}
+
 
 #servicos {
     height: 35px;
@@ -91,4 +111,13 @@ p {
 
 a.none {
     text-decoration: none;
+    font-size: 15px;
+    color: black;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 160px;
+    
 }
